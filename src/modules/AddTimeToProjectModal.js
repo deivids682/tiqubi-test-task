@@ -7,10 +7,6 @@ import { TextField } from "@material-ui/core";
 class AddTimeToProjectModal extends Component {
   state = {
     selectedValue: 0,
-    error: {
-      hoursError: false,
-      minutesError: false,
-    },
     time: {
       hours: 0,
       minutes: 0,
